@@ -1,0 +1,27 @@
+{
+  "name": "jwt",
+  "version": "1.0.0",
+  "description": "Construir uma API de cadastro e login de usuários com senha criptografada, tokens JWT e middlewares que protegem rotas por autenticação e por perfil (admin/user).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saralmvr/JWTT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/saralmvr/JWTT/issues"
+  },
+  "homepage": "https://github.com/saralmvr/JWTT#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "nodemon": "^3.1.14"
+  }
+}
